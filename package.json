@@ -1,0 +1,13 @@
+{
+  "name": "ssh-fingerprint",
+  "version": "0.0.0",
+  "description": "Generate a fingerprint given an SSH public key (without `ssh-keygen` or external dependencies)",
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "main": "./ssh-fingerprint.js",
+  "scripts": {
+    "test": "for f in test/*.js; do echo \"$f\"; node \"$f\" || exit 1; done; echo Passed; exit 0"
+  },
+  "repository": "git://github.com/bahamas10/node-ssh-fingerprint.git",
+  "license": "MIT",
+  "dependencies": {}
+}

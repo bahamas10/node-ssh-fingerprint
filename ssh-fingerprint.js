@@ -1,6 +1,6 @@
 var crypto = require('crypto');
 
-var pubre = /^(ssh-[dr]s[as]\s+)|(\s+.+\@.+)|\n/g;
+var pubre = /^(ssh-[dr]s[as]\s+)|(\s+.+)|\n/g;
 
 module.exports = fingerprint;
 

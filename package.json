@@ -1,6 +1,6 @@
 {
   "name": "ssh-fingerprint",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Generate a fingerprint given an SSH public key (without `ssh-keygen` or external dependencies)",
   "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
   "main": "./ssh-fingerprint.js",
